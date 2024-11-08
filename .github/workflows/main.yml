@@ -12,11 +12,11 @@ test:
 
   steps:
     - name: Checkout a branch
-        uses: actions/checkout@v1
+      uses: actions/checkout@v1
     - name: Use Node.js 21
-        uses: actions/setup-node@v1
-        with: 
-          node-version: 21.x
+      uses: actions/setup-node@v1
+      with: 
+        node-version: 21.x
     - name: install deps
         run: npm install
     - name: Run lint
