@@ -7,18 +7,18 @@ on:
       - staging
 
 jobs:
-test:
-  runs-on: ubuntu-latest
+  test:
+    runs-on: ubuntu-latest
 
-  steps:
-    - name: Checkout a branch
-      uses: actions/checkout@v1
-    - name: Use Node.js 21
-      uses: actions/setup-node@v1
-      with: 
-        node-version: 21.x
-    - name: install deps
-      run: npm install
-    - name: Run lint
-      run: npm run lint
-    
+    steps:
+      - name: Checkout a branch
+        uses: actions/checkout@v1
+      - name: Use Node.js 21
+        uses: actions/setup-node@v1
+        with: 
+          node-version: 21.x
+      - name: install deps
+        run: npm install
+      - name: Run lint
+        run: npm run lint
+      
