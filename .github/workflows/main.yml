@@ -21,4 +21,4 @@ test:
         run: npm install
     - name: Run lint
         run: npm run lint
-    - 6
+    
