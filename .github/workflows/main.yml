@@ -1,0 +1,24 @@
+name: this is a workflow, w-o-r-k, please
+on:
+  pull_request:
+    branches:
+      - develop
+      - staging
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout a branch
+        uses: actions/checkout@v1
+      
+      - name: Use node 21
+        uses: actions/checkout@v1
+        with:
+          node-version: 21.x
+      - name: install dependencies
+        run: npm install
+      - name: run linter
+        run: npm run lint 
+
+
