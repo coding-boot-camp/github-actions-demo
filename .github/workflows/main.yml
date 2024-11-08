@@ -1,10 +1,10 @@
 name: This is a workflow, w-o-r-k, please
 
 on: 
-pull_request:
-  branches:
-    - develop
-    - staging
+  pull_request:
+    branches:
+      - develop
+      - staging
 
 jobs:
 test:
