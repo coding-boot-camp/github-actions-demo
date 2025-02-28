@@ -14,4 +14,4 @@ function Advertisement(props: AdvertisementProps) {
   );
 }
 
-export default Advertisement;
+export default Advertisement
