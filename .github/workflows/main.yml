@@ -32,3 +32,11 @@ jobs:
       # Run lint
       - name: Run Lint
         run: npm run lint
+      
+      # Run Build
+      - name: Run Build
+        run: npm run build
+
+      # Run Test
+      - name: Run Test
+        run: npm run Test
