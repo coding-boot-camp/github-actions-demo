@@ -15,12 +15,13 @@ export default function Calculator() {
 
   return (
     <div className="calculator">
-            <h2>Simple Calculator</h2>
+      <h2>Simple Calculator</h2>
       <p>
         <input
-          type="text"
-          id="value"
-          name="value"
+          type="text"  
+          id="value" 
+         // value="0" 
+          name="value" 
           onChange={(event) => { setValue(Number(event.target.value)); }}
           value={value}
         />
