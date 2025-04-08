@@ -7,11 +7,12 @@
     "dev": "vite --port 3000",
     "build": "tsc && vite build",
     "lint": "eslint src --ext js,tsx --report-unused-disable-directives --max-warnings 0",
-  "preview": "vite preview",
-      "eslint": "eslint src",
+    "preview": "vite preview",
+    "eslint": "eslint src",
     "test": "vitest"
   },
   "dependencies": {
+    "lint": "^1.1.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -27,7 +28,7 @@
     "eslint": "^8.45.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
-    "happy-dom": "^14.12.3",
+    "happy-dom": "^17.4.4",
     "pretty": "^2.0.0",
     "typescript": "^5.0.2",
     "vite": "^4.4.5",
