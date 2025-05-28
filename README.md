@@ -8,7 +8,6 @@ GitHub Actions is a great solution to this problem. For example, you could creat
 
 ## Initial Project Setup
 
-TODO: this definitely doesn't work
 To begin, start by forking the following repository [GitHub Actions Demo](https://github.com/coding-boot-camp/github-actions-demo).  Once you have forked this repository you should then clone the forked repository to your local machine.
 
 ## Create the Workflow
